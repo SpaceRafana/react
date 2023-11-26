@@ -1,0 +1,76 @@
+import {Link, Element} from "react-scroll";
+
+import Competance from "./Competance";
+import Next from "./Next";
+import Btn from "./Btn";
+import {Canvas} from "@react-three/fiber";
+import {Avatar} from "./3d/Avatar";
+
+export default function Presentation() {
+
+    //state
+
+    //comportement
+
+    return (
+        <Element name="presentation">
+            <div className="presentation row">
+                <div className="col-lg-7" style={{zIndex: 5}}>
+                    <div>
+                        <div className="d-flex align-items-center">
+                            <div style={{backgroundColor: "#D6F42A", width: 8, height: 45}}/>
+                            <div style={{
+                                marginLeft: 13, color: "white", fontFamily: "Chakra Petch, sans serif",
+                                fontSize: 23
+                            }}>
+                                <span id="ig" className="fw-bold">Bonjour,</span><span className="ms-3">je suis</span>
+                            </div>
+                        </div>
+                        <h1 className="nom" style={{fontFamily: "Chakra Petch, sans-serif"}}>Ra Fanekena</h1>
+                        <div className="d-flex align-items-center" style={{position: "relative", bottom: 18}}>
+                            <svg width="75" height="75"
+                                 viewBox="0 0 111.65 46.029">
+                                <g id="Groupe_3" data-name="Groupe 3" transform="translate(-374.5 -598.981)">
+                                    <path id="Tracé_6" data-name="Tracé 6"
+                                          d="M485.793,616.994V645.01H374.5V604.837c8.183-3.56,17.365-6.064,26.753-5.843C431.138,599.708,441.861,637.312,485.793,616.994Z"
+                                          fill="#d6f42a"/>
+                                    <path id="Tracé_7" data-name="Tracé 7"
+                                          d="M456,607.561s14.268,12.128,27.11,12.128,26.4-6.421,26.4-6.421v-7.134A45.247,45.247,0,0,0,485.25,599C470.982,599,456,607.561,456,607.561Z"
+                                          transform="translate(-23.356 -0.005)" fill="#a1b720"/>
+                                </g>
+                            </svg>
+                            <h3 className="Dev">Dev front-end <span className="text-light">|</span> <span
+                                style={{color: "#A1B720"}}>Graphic Designer</span></h3>
+                        </div>
+
+                        <Competance/>
+
+                        <p className="col-10 colorWhite lineHeight">
+                            J'aime faire de la conception visuelle. Je suis passioné au travail artistique
+                            dans le domaine du numérique.
+                        </p>
+
+                        <div className="d-flex gap-4">
+                            <Btn to="services" textBtn="Découvrir" icon="ms-2 icon-circle-plus"/>
+                            <Btn to="services" icon="icon-send"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-lg" style={{height: "100%", width: "75%", position: "fixed", right: 0}}>
+                    <Canvas camera={{position: [0, 0, 1]}}>
+                        <Avatar/>
+                        <directionalLight position={[0, 3, 2]}/>
+                        <ambientLight intensity={3}/>
+                        <pointLight position={[2.5, 3, 2]} color={"purple"} intensity={8}/>
+                    </Canvas>
+                </div>
+                {/*<div className="col-12 justify-content-center align-items-center d-flex" style={{zIndex: 6}}>
+                    <div style={{background: "white", height: 1, width: 120}}/>
+                        <Next to="services" smooth={"easeInOutCubic"} duration={1000}/>
+                    <div style={{background: "white", height: 1, width: 120}}/>
+                </div>*/}
+            </div>
+        </Element>
+    )
+}
