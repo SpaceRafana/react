@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d27d195a.css",
+    "main.js": "/static/js/main.4d482694.js",
+    "static/media/space-lunar-v3-4k.jpg": "/static/media/space-lunar-v3-4k.af7a69bbe213514181e4.jpg",
+    "static/media/icomoon.svg?qtatmt": "/static/media/icomoon.a6dff521f70f33bc2da2.svg",
+    "static/media/Mockup-laptop.jpg": "/static/media/Mockup-laptop.938328bb5bcad2d5d8b0.jpg",
+    "static/media/presentation-web-design.png": "/static/media/presentation-web-design.00b440cec45c3c475bc4.png",
+    "static/media/macbook.png": "/static/media/macbook.01620311918590ddfc6e.png",
+    "static/media/icomoon.eot?qtatmt": "/static/media/icomoon.4605f02172cd076ce17b.eot",
+    "static/media/icomoon.woff?qtatmt": "/static/media/icomoon.c5d56d987f6f7658f917.woff",
+    "static/media/icomoon.ttf?qtatmt": "/static/media/icomoon.dfad3f4c496f94b89af9.ttf",
+    "static/media/Dev.png": "/static/media/Dev.eb1e34ba4c53bd5fc495.png",
+    "static/media/Plume.png": "/static/media/Plume.c78d68164259b9544810.png",
+    "static/media/space-rafana-logo-1080.svg": "/static/media/space-rafana-logo-1080.718ceb361d1ddda6fadf2b60dfe454bc.svg",
+    "index.html": "/index.html",
+    "static/media/mail_black_24dp.svg": "/static/media/mail_black_24dp.7a53cace2bdb93c26a6af969c3c32362.svg"
+  },
+  "entrypoints": [
+    "static/css/main.d27d195a.css",
+    "static/js/main.4d482694.js"
+  ]
+}
