@@ -37,16 +37,19 @@ a {
 }
 
 h1 {
+    font-family: Chakra Petch Semibold, sans-serif;
     font-size: 85px !important;
     margin: 35px 0 !important;
 }
 
 h2 {
+    font-family: Chakra Petch Semibold, sans-serif;
     font-size: 52.53px !important;
     margin: 21.63px 0 !important;
 }
 
 h3 {
+    font-family: Chakra Petch Semibold, sans-serif;
     font-size: 32.46px !important;
     margin: 13.36px 0 !important;
 }
@@ -255,18 +258,18 @@ ul {
 .nom {
     color: white;
     font-family: Chakra Petch Semibold, sans-serif;
-    font-weight: bold;
     margin: 0 0 !important;
     position: relative;
     right: 5px;
+    line-height: 1.2;
 }
 
 .Dev {
+    font-family: sans-serif;
     position: relative;
     top: 4px;
     color: var(--color);
-    font-weight: bold;
-    margin: 0 13px !important;
+    margin: 0 12px !important;
 }
 
 .Competance {
@@ -417,7 +420,7 @@ ul {
         padding: 0 13px;
     }
     .Dev {
-        margin-inline: 0 !important;
+        margin: 0 !important;
     }
     .Competance {
         display: none;

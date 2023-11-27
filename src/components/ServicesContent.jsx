@@ -15,7 +15,7 @@ export default function ServicesContent({setEtat}) {
     return (
         <>
             <div className="mb-4">
-                <h2 className="fw-bold" style={{fontFamily: "Chakra Petch, sans-serif"}}>Ce que je fait ?</h2>
+                <h2>Ce que je fait ?</h2>
                 <p className="offset-lg-3 col-lg-6">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
                     nonummy nibh euismod tincidunt ut laoreet dolore magna

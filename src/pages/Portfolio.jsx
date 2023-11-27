@@ -9,7 +9,7 @@ export default function Portfolio() {
     return (
 
         <div className="portfolio">
-            <h1 className="textCenter colorGreen fw-bold">Portfolio</h1>
+            <h1 className="textCenter colorGreen">Portfolio</h1>
             <div className="row my-5 PFContent">
                 <div className="col-lg-4 mb-4">
                     <div style={{

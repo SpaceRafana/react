@@ -7,7 +7,7 @@ export default function DevFrontend() {
 
     return (
         <div className="DevFrontend">
-            <h2 className="fw-bold text-capitalize" style={{fontFamily: "Chakra Petch, sans-serif"}}>
+            <h2 className="text-capitalize">
                 Développement Web
             </h2>
             <div className="row justify-content-between">

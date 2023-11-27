@@ -7,7 +7,7 @@ export default function GraphicDesign() {
 
     return (
         <div className="GraphicDesign">
-            <h2 className="fw-bold text-capitalize" style={{fontFamily: "Chakra Petch, sans-serif"}}>Graphic design</h2>
+            <h2 className="text-capitalize">Graphic design</h2>
             <div className="d-flex justify-content-between">
                 <div className="col-lg-5">
                     <Checklist

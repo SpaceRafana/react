@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cecd8afa.css",
-    "main.js": "/static/js/main.72082ce4.js",
+    "main.css": "/static/css/main.f87f7d14.css",
+    "main.js": "/static/js/main.f859d6a3.js",
     "static/media/icomoon.svg?qtatmt": "/static/media/icomoon.a6dff521f70f33bc2da2.svg",
     "static/media/Mockup-laptop.jpg": "/static/media/Mockup-laptop.938328bb5bcad2d5d8b0.jpg",
     "static/media/presentation-web-design.png": "/static/media/presentation-web-design.00b440cec45c3c475bc4.png",
@@ -20,7 +20,7 @@
     "static/media/mail_black_24dp.svg": "/static/media/mail_black_24dp.7a53cace2bdb93c26a6af969c3c32362.svg"
   },
   "entrypoints": [
-    "static/css/main.cecd8afa.css",
-    "static/js/main.72082ce4.js"
+    "static/css/main.f87f7d14.css",
+    "static/js/main.f859d6a3.js"
   ]
 }
