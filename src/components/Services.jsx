@@ -21,11 +21,11 @@ export default function Services({setEtat}) {
                 <SousCalque/>
                 <div className="d-flex justify-content-center align-items-center py-3" style={{position: "relative", bottom: "auto"}}>
                     <div style={{background: "white", height: 1, width: 120}}/>
-                    <Prev to="presentation" smooth={"easeInOutCubic"} duration={1000} offset={-88}/>
+                    <Prev to="presentation" smooth={"easeInOutCubic"} duration={1000} offset={-250}/>
                     <div style={{background: "white", height: 1, width: 120}}/>
                 </div>
-                <div className="d-flex justify-content-center align-items-center"
-                     style={{position: "relative", top: "15%"}}>
+                <div className="d-flex justify-content-center"
+                     style={{position: "relative", top: "10%"}}>
                     <div className="d-block">
                         <ServicesContent setEtat={setEtat}/>
                     </div>

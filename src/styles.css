@@ -3,6 +3,19 @@
     --color : #D6F42A
 }
 
+@font-face {
+    font-family: Handjet;
+    src: url("/src/fonts/handjet/static/Handjet-Bold.ttf");
+}
+@font-face {
+    font-family: Chakra Petch;
+    src: url("/src/fonts/Chakra_Petch/ChakraPetch-Regular.ttf");
+}
+@font-face {
+    font-family: Chakra Petch Semibold;
+    src: url("/src/fonts/Chakra_Petch/ChakraPetch-SemiBold.ttf");
+}
+
 body {
     background-image: url("img/space-lunar-v3-4k.jpg");
     background-size: cover;
@@ -41,6 +54,7 @@ h3 {
 p {
     font-family: Chakra Petch, sans-serif;
     font-size: 20.06px !important;
+    line-height: 18pt;
 }
 
 button {
@@ -61,6 +75,25 @@ button {
 
 .colorGreen {
     color: var(--color);
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 45px !important;
+    }
+    h2 {
+        font-size: 27.81px !important;
+    }
+    h3 {
+        font-size: 18px !important;
+    }
+    p {
+        font-size: 15px !important;
+        line-height: normal;
+    }
+    .iconWave {
+        display: none;
+    }
 }
 
                                             /*   Bar Navigation   */
@@ -108,6 +141,40 @@ ul {
     width: 100% !important;
 }
 
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .navigation {
+        padding-inline: 13px;
+        margin-bottom: 55px;
+    }
+    .hamburger {
+        display: block;
+        z-index: 6;
+    }
+    .navlink  ul {
+        background: rgba(0, 0, 0, 0.55);
+        backdrop-filter: blur(15px);
+        position: absolute;
+        top: -100%;
+        width: 100%;
+        height: 100vh;
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        opacity: 0;
+    }
+    .show {
+        opacity: 1 !important;
+        z-index: 6 !important;
+        top: 0 !important;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
                                         /*   Bouton Next-Prev   */
 .buttonNav {
     background: transparent;
@@ -116,8 +183,34 @@ ul {
     border-radius: 25px;
 }
 
+.MyBtn {
+    background: transparent;
+    box-shadow: 0 0 2px white;
+    width: auto;
+    display: block;
+    padding: 13px 25px;
+    border-radius: 8px;
+    color: var(--color);
+    font-family: Handjet, sans-serif;
+    font-size: 23px;
+}
+.MyBtn:hover {
+    background: white;
+    box-shadow: 0 0 0;
+    color: black;
+}
+
 .btnNext {
     animation: btnAnimationNext 0.8s infinite ease-in-out alternate;
+}
+@keyframes btnAnimationNext {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(5px);
+    }
 }
 
 @keyframes btnAnimationPrev {
@@ -133,14 +226,35 @@ ul {
     animation: btnAnimationPrev 0.8s infinite ease-in-out alternate;
 }
 
+@media only screen and (max-width: 768px){
+    .MyBtn {
+        font-size: 18px;
+        padding: 6px 15px;
+        border-radius: 5px;
+    }
+}
 
                                         /*   Page Home   */
+.monAvatar {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 75% !important;
+}
+
+.salutation {
+    margin-left: 13px;
+    font-family: Chakra Petch Semibold, sans-serif;
+    font-size: 23px;
+}
+
 .home {
     overflow: hidden !important;
 }
 
 .nom {
     color: white;
+    font-family: Chakra Petch Semibold, sans-serif;
     font-weight: bold;
     margin: 0 0 !important;
     position: relative;
@@ -165,38 +279,10 @@ ul {
     font-size: 18px;
 }
 
-.MyBtn {
-    background: transparent;
-    box-shadow: 0 0 2px white;
-    width: auto;
-    display: block;
-    padding: 13px 25px;
-    border-radius: 8px;
-    color: var(--color);
-    font-family: Handjet, sans-serif;
-    font-size: 23px;
-}
-.MyBtn:hover {
-    background: white;
-    box-shadow: 0 0 0;
-    color: black;
-}
-
 .presentation {
     height: 100vh;
     align-items: center;
     padding: 0 88px;
-    scroll-snap-align: center;
-}
-
-@keyframes btnAnimationNext {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-        transform: translateY(5px);
-    }
 }
 
 .Services {
@@ -238,12 +324,12 @@ ul {
 }
 
 .box1 {
-    width: 255px;
+    width: 255px !important;
     animation: animate 3.8s infinite ease-in-out alternate;
 }
 
 .box2 {
-    width: 255px;
+    width: 255px !important;
     animation: animate2 3.8s infinite ease-in-out alternate;
 }
 
@@ -320,6 +406,46 @@ ul {
 
 }
 
+@media only screen and (max-width: 768px) {
+    .monAvatar {
+        width: 100% !important;
+    }
+    .salutation {
+        font-size: 15px;
+    }
+    .presentation {
+        padding: 0 13px;
+    }
+    .Dev {
+        margin-inline: 0 !important;
+    }
+    .Competance {
+        display: none;
+    }
+    .presentation {
+        align-items: start;
+        padding-top: 55px;
+    }
+    .Services {
+        padding: 0 13px;
+    }
+    .box1 {
+        animation: none;
+        margin-bottom: 8px;
+    }
+    .box2 {
+        animation: none;
+    }
+    .GraphicDesign {
+        background: none;
+        padding: 15% 12px;
+    }
+    .DevFrontend {
+        background: none;
+        padding: 15% 12px;
+    }
+}
+
                                         /*   Page About   */
 .about {
     height: 100vh;
@@ -328,14 +454,30 @@ ul {
 .about h1 {
     color: var(--color);
 }
+@media only screen and (max-width: 768px){
+    .about {
+        padding: 0 12px;
+    }
+    .about div div {
+        height: 850px;
+        overflow: scroll;
+    }
+}
 
                                         /*   Page Portfolio   */
 .portfolio {
     height: 100vh;
-    max-height: 100vh;
     padding: 0 88px;
 }
 .PFContent {
-    max-height: 65vh;
+    height: 65vh;
     overflow-y: scroll;
+}
+@media only screen and (max-width: 768px){
+    .portfolio {
+        padding: 0 12px;
+    }
+    .PFContent {
+        height: 55vh;
+    }
 }

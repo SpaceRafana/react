@@ -7,7 +7,6 @@ import {
     Route,
 } from "react-router-dom"
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/Navbar";
 import {useState} from "react";
@@ -17,7 +16,6 @@ export default function App() {
 
     //comportements
 
-
     //affichage
     return (
         <div className="App">
@@ -26,7 +24,6 @@ export default function App() {
                     <Navbar/>
                     <Routes>
                         <Route index Component={Home}/>
-                        <Route path="/about" Component={About}/>
                         <Route path="/portfolio" Component={Portfolio}/>
                     </Routes>
                 </div>

@@ -17,7 +17,7 @@ export default function Portfolio() {
                         height: 308,
                         overflow: "hidden"
                     }}>
-                        <img src={WebDesign} alt="#" width="135%"/>
+                        <img src={WebDesign} alt="#" width="185%"/>
                     </div>
                 </div>
                 <div className="col-lg-4 mb-4">

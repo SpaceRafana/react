@@ -18,17 +18,15 @@ export default function Presentation() {
                 <div className="col-lg-7" style={{zIndex: 5}}>
                     <div>
                         <div className="d-flex align-items-center">
-                            <div style={{backgroundColor: "#D6F42A", width: 8, height: 45}}/>
-                            <div style={{
-                                marginLeft: 13, color: "white", fontFamily: "Chakra Petch, sans serif",
-                                fontSize: 23
-                            }}>
-                                <span id="ig" className="fw-bold">Bonjour,</span><span className="ms-3">je suis</span>
+                            <div style={{backgroundColor: "#D6F42A", width: 5, height: 25}}/>
+                            <div className="salutation">
+                                <span id="ig" style={{fontFamily: "Chakra Petch Semibold, sans serif"}}>Bonjour,</span>
+                                <span className="ms-3" style={{fontFamily: "Chakra Petch, sans serif"}}>je suis</span>
                             </div>
                         </div>
-                        <h1 className="nom" style={{fontFamily: "Chakra Petch, sans-serif"}}>Ra Fanekena</h1>
-                        <div className="d-flex align-items-center" style={{position: "relative", bottom: 18}}>
-                            <svg width="75" height="75"
+                        <h1 className="nom">Ra Fanekena</h1>
+                        <div className="d-flex align-items-center mb-3" >
+                            <svg className="iconWave" width="75" height="75"
                                  viewBox="0 0 111.65 46.029">
                                 <g id="Groupe_3" data-name="Groupe 3" transform="translate(-374.5 -598.981)">
                                     <path id="Tracé_6" data-name="Tracé 6"
@@ -45,19 +43,18 @@ export default function Presentation() {
 
                         <Competance/>
 
-                        <p className="col-10 colorWhite lineHeight">
+                        <p className="col-10 colorWhite">
                             J'aime faire de la conception visuelle. Je suis passioné au travail artistique
                             dans le domaine du numérique.
                         </p>
 
                         <div className="d-flex gap-4">
                             <Btn to="services" textBtn="Découvrir" icon="ms-2 icon-circle-plus"/>
-                            <Btn to="services" icon="icon-send"/>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-lg" style={{height: "100%", width: "75%", position: "fixed", right: 0}}>
+                <div className="col-lg monAvatar">
                     <Canvas camera={{position: [0, 0, 1]}}>
                         <Avatar/>
                         <directionalLight position={[0, 3, 2]}/>

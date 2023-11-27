@@ -9,7 +9,6 @@ export default function Home() {
     const [etat, setEtat] = useState("")
 
     //comportements
-    console.log(etat)
 
     return (
         <div className="home">
