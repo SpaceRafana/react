@@ -4,7 +4,7 @@ Command: npx gltfjsx@6.2.14 public/models/avatar.glb
 */
 
 import React, {useRef} from 'react'
-import {useGLTF, useAnimations, useFBX} from '@react-three/drei'
+import {useGLTF, useAnimations} from '@react-three/drei'
 import {useFrame} from "@react-three/fiber";
 
 export function Avatar(props) {
@@ -14,7 +14,7 @@ export function Avatar(props) {
     const {actions} = useAnimations(animations, group)
 
     //comportement
-    useFrame(state => {
+    useFrame(() => {
         actions["standing"].play()
     })
 

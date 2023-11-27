@@ -1,10 +1,8 @@
-import {Link, Element} from "react-scroll";
+import {Element} from "react-scroll";
 
 import Competance from "./Competance";
-import Next from "./Next";
+import MonAvatar from "./MonAvatar";
 import Btn from "./Btn";
-import {Canvas} from "@react-three/fiber";
-import {Avatar} from "./3d/Avatar";
 
 export default function Presentation() {
 
@@ -55,12 +53,7 @@ export default function Presentation() {
                 </div>
 
                 <div className="col-lg monAvatar">
-                    <Canvas camera={{position: [0, 0, 1]}}>
-                        <Avatar/>
-                        <directionalLight position={[0, 3, 2]}/>
-                        <ambientLight intensity={3}/>
-                        <pointLight position={[2.5, 3, 2]} color={"purple"} intensity={8}/>
-                    </Canvas>
+                    <MonAvatar />
                 </div>
                 {/*<div className="col-12 justify-content-center align-items-center d-flex" style={{zIndex: 6}}>
                     <div style={{background: "white", height: 1, width: 120}}/>

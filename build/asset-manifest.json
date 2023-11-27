@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4baa07d7.css",
-    "main.js": "/static/js/main.12764bf4.js",
-    "static/media/space-lunar-v3-4k.jpg": "/static/media/space-lunar-v3-4k.af7a69bbe213514181e4.jpg",
+    "main.css": "/static/css/main.cecd8afa.css",
+    "main.js": "/static/js/main.72082ce4.js",
     "static/media/icomoon.svg?qtatmt": "/static/media/icomoon.a6dff521f70f33bc2da2.svg",
     "static/media/Mockup-laptop.jpg": "/static/media/Mockup-laptop.938328bb5bcad2d5d8b0.jpg",
     "static/media/presentation-web-design.png": "/static/media/presentation-web-design.00b440cec45c3c475bc4.png",
@@ -11,6 +10,7 @@
     "static/media/icomoon.eot?qtatmt": "/static/media/icomoon.4605f02172cd076ce17b.eot",
     "static/media/icomoon.woff?qtatmt": "/static/media/icomoon.c5d56d987f6f7658f917.woff",
     "static/media/icomoon.ttf?qtatmt": "/static/media/icomoon.dfad3f4c496f94b89af9.ttf",
+    "static/media/space-lunar-opt.jpg": "/static/media/space-lunar-opt.1af439f264486dd9884d.jpg",
     "static/media/ChakraPetch-SemiBold.ttf": "/static/media/ChakraPetch-SemiBold.9520da44cd31654efa7e.ttf",
     "static/media/ChakraPetch-Regular.ttf": "/static/media/ChakraPetch-Regular.f4019d33aae25f6d8eaf.ttf",
     "static/media/Dev.png": "/static/media/Dev.eb1e34ba4c53bd5fc495.png",
@@ -20,7 +20,7 @@
     "static/media/mail_black_24dp.svg": "/static/media/mail_black_24dp.7a53cace2bdb93c26a6af969c3c32362.svg"
   },
   "entrypoints": [
-    "static/css/main.4baa07d7.css",
-    "static/js/main.12764bf4.js"
+    "static/css/main.cecd8afa.css",
+    "static/js/main.72082ce4.js"
   ]
 }
