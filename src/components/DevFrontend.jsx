@@ -7,7 +7,7 @@ export default function DevFrontend() {
 
     return (
         <div className="DevFrontend">
-            <h2 className="text-capitalize">
+            <h2 className="text-capitalize mb-4">
                 Développement Web
             </h2>
             <div className="row justify-content-between">

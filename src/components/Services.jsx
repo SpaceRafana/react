@@ -7,7 +7,7 @@ import ServicesContent from "./ServicesContent";
 import Detail from "./Detail";
 import {useState} from "react";
 
-export default function Services({setEtat}) {
+export default function Services({etat, setEtat}) {
     //state
 
     //comportement
@@ -31,6 +31,7 @@ export default function Services({setEtat}) {
                     </div>
                 </div>
             </div>
+            <Detail etat={etat}/>
         </Element>
     )
 }

@@ -47,7 +47,7 @@ export default function Presentation() {
                         </p>
 
                         <div className="d-flex gap-4">
-                            <Btn to="services" textBtn="Découvrir" icon="ms-2 icon-circle-plus"/>
+                            <Btn to="services" textBtn="Découvrir" icon="ms-2 icon-plus-square"/>
                         </div>
                     </div>
                 </div>

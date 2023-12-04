@@ -13,8 +13,6 @@ export default function Competance() {
             <div style={style}/>
             <div className="me-3">React</div>
             <div style={style}/>
-            <div className="me-3">Codeigniter</div>
-            <div style={style}/>
             <div className="me-3">Adobe Illustrator</div>
             <div style={style}/>
             <div className="me-3">Adobe Photoshop</div>

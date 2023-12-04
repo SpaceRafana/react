@@ -1,26 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.f87f7d14.css",
-    "main.js": "/static/js/main.f859d6a3.js",
+    "main.css": "/static/css/main.e3abb9ca.css",
+    "main.js": "/static/js/main.9f8f54f2.js",
+    "static/media/box-medicine.jpg": "/static/media/box-medicine.7840151e18b51adecd90.jpg",
     "static/media/icomoon.svg?qtatmt": "/static/media/icomoon.a6dff521f70f33bc2da2.svg",
-    "static/media/Mockup-laptop.jpg": "/static/media/Mockup-laptop.938328bb5bcad2d5d8b0.jpg",
     "static/media/presentation-web-design.png": "/static/media/presentation-web-design.00b440cec45c3c475bc4.png",
-    "static/media/macbook.png": "/static/media/macbook.01620311918590ddfc6e.png",
+    "static/media/Handjet-Medium.ttf": "/static/media/Handjet-Medium.2472d17f225c398541ef.ttf",
     "static/media/Handjet-Bold.ttf": "/static/media/Handjet-Bold.1407bb598aa690696899.ttf",
     "static/media/icomoon.eot?qtatmt": "/static/media/icomoon.4605f02172cd076ce17b.eot",
     "static/media/icomoon.woff?qtatmt": "/static/media/icomoon.c5d56d987f6f7658f917.woff",
     "static/media/icomoon.ttf?qtatmt": "/static/media/icomoon.dfad3f4c496f94b89af9.ttf",
+    "static/media/etiquettage-chips.JPG": "/static/media/etiquettage-chips.79a07356af49d36b64a8.JPG",
+    "static/media/tmpl-pub-2.JPG": "/static/media/tmpl-pub-2.cbc657ac424d28b1662e.JPG",
+    "static/media/tmpl-pub.JPG": "/static/media/tmpl-pub.02172b4e7efcb61d8341.JPG",
+    "static/media/template-pub-reseausociaux.jpg": "/static/media/template-pub-reseausociaux.269ed7df8b45fdc32fff.jpg",
+    "static/media/design-pub.jpg": "/static/media/design-pub.5b58af2bb55ce8b64a5a.jpg",
+    "static/media/FB-interface-with-project.jpg": "/static/media/FB-interface-with-project.169540af6cc4aa40005c.jpg",
+    "static/media/medicine.JPG": "/static/media/medicine.aa1f66300945a88ddb5d.JPG",
+    "static/media/screen-business-card.JPG": "/static/media/screen-business-card.a9600f2063f906f41154.JPG",
     "static/media/space-lunar-opt.jpg": "/static/media/space-lunar-opt.1af439f264486dd9884d.jpg",
+    "static/media/mockup-chips.jpg": "/static/media/mockup-chips.ae3762783e57ece249f0.jpg",
     "static/media/ChakraPetch-SemiBold.ttf": "/static/media/ChakraPetch-SemiBold.9520da44cd31654efa7e.ttf",
     "static/media/ChakraPetch-Regular.ttf": "/static/media/ChakraPetch-Regular.f4019d33aae25f6d8eaf.ttf",
+    "static/media/business-card.jpg": "/static/media/business-card.7037333c538df3c54c4c.jpg",
+    "static/media/web-design-photographie.JPG": "/static/media/web-design-photographie.fc088acb4f580b2a268d.JPG",
     "static/media/Dev.png": "/static/media/Dev.eb1e34ba4c53bd5fc495.png",
+    "static/media/mise-en-situation-tmpl-pub.jpg": "/static/media/mise-en-situation-tmpl-pub.66d443f3f9d75052b4a8.jpg",
     "static/media/Plume.png": "/static/media/Plume.c78d68164259b9544810.png",
     "static/media/space-rafana-logo-1080.svg": "/static/media/space-rafana-logo-1080.718ceb361d1ddda6fadf2b60dfe454bc.svg",
     "index.html": "/index.html",
     "static/media/mail_black_24dp.svg": "/static/media/mail_black_24dp.7a53cace2bdb93c26a6af969c3c32362.svg"
   },
   "entrypoints": [
-    "static/css/main.f87f7d14.css",
-    "static/js/main.f859d6a3.js"
+    "static/css/main.e3abb9ca.css",
+    "static/js/main.9f8f54f2.js"
   ]
 }

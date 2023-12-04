@@ -1,8 +1,8 @@
 
+import Navbar from "../components/Navbar";
 import Presentation from "../components/Presentation";
 import Services from "../components/Services";
-import Detail from "../components/Detail";
-import {useRef, useState} from "react";
+import {useState} from "react";
 
 export default function Home() {
     //state
@@ -12,9 +12,9 @@ export default function Home() {
 
     return (
         <div className="home">
+            <Navbar/>
             <Presentation />
-            <Services setEtat={setEtat}/>
-            <Detail etat={etat} setEtat={setEtat}/>
+            <Services etat={etat} setEtat={setEtat}/>
         </div>
     );
 };
