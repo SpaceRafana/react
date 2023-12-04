@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3abb9ca.css",
+    "main.css": "/static/css/main.b3fec346.css",
     "main.js": "/static/js/main.9f8f54f2.js",
     "static/media/box-medicine.jpg": "/static/media/box-medicine.7840151e18b51adecd90.jpg",
     "static/media/icomoon.svg?qtatmt": "/static/media/icomoon.a6dff521f70f33bc2da2.svg",
@@ -32,7 +32,7 @@
     "static/media/mail_black_24dp.svg": "/static/media/mail_black_24dp.7a53cace2bdb93c26a6af969c3c32362.svg"
   },
   "entrypoints": [
-    "static/css/main.e3abb9ca.css",
+    "static/css/main.b3fec346.css",
     "static/js/main.9f8f54f2.js"
   ]
 }
